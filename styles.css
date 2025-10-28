@@ -2,227 +2,171 @@
    Dark Navy Theme — Devarshi Lala
    ================================ */
 
-/* Body and Global Styles */
+/* Body & global */
 body {
-  background-color: #155084 !important;   /* Navy blue background */
-  color: #e6e6e6;                        /* Soft white text */
+  background-color: #155084 !important;   /* Navy */
+  color: #e6e6e6;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
+/* Remove Quarto’s header underline everywhere */
+main h1, main h2, .content h1, .content h2,
+section h1, section h2 {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Smooth anchor scrolling */
+html { scroll-behavior: smooth; }
+
+/* ================================
+   SNAP / FULL-SCREEN SECTIONS
+   ================================ */
+.snap {
+  scroll-snap-type: y mandatory;   /* 1 section visible at a time */
+}
+.section {
+  min-height: 92vh;                /* nearly full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 6rem 0;                 /* spacing inside each section */
+  scroll-snap-align: start;
+}
+.section + .section {
+  margin-top: 8rem;                /* spacing between sections (extra safety) */
+}
+
+/* Optional alternating background for variety */
+.section.alt {
+  background: #faf6ef;             /* light warm for projects */
+  color: #2e2e2e;
+}
+
+/* Headings inside sections */
+.section h1, .section h2 {
   color: #ffffff;
-  letter-spacing: 0.5px;
-  font-weight: 600;
+  margin-bottom: .75rem;
+}
+.section.alt h1, .section.alt h2 {
+  color: #2b2b2b;
 }
 
-/* Links and Buttons */
-a {
-  color: #00b4d8;
-  text-decoration: none;
-  transition: color 0.2s ease;
+/* ================================
+   NAVBAR — white pill centered
+   ================================ */
+.navbar {
+  background: #ffffff !important;
+  border-radius: 50px;
+  max-width: 950px;
+  margin: 25px auto;
+  padding: 12px 40px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-dark { background: transparent !important; border-bottom: none !important; }
+.navbar .navbar-collapse { justify-content: center !important; }
+.navbar .navbar-nav { display: flex; justify-content: center; flex-grow: 1; gap: 24px; }
+.navbar .navbar-brand { color: #155084 !important; font-weight: 700; font-size: 1.08rem; margin-right: 20px; }
+.navbar .nav-link { color: #155084 !important; font-weight: 600; font-size: 1.12rem; padding: 12px 22px; border-radius: 30px; transition: all .25s ease; }
+.navbar .nav-link:hover, .navbar .nav-link.active { background: rgba(21,80,132,.12); color: #0b0c10 !important; }
+.navbar .navbar-right, .navbar .navbar-nav:last-child { gap: 8px !important; margin-left: 16px !important; }
+.navbar .nav-item .bi-search, .navbar .quarto-navbar-tools { margin-left: 0 !important; margin-right: 0 !important; padding: 0 !important; }
+.quarto-color-scheme-toggle { display: none !important; } /* hide theme toggle */
+
+/* ================================
+   CONTACT CHIPS
+   ================================ */
+.contact-cards {
+  display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px;
+}
+.contact-card {
+  background: #ffffff; color: #155084;
+  border-radius: 16px; padding: 12px 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.2);
+  font-weight: 700; text-decoration: none;
+  display: inline-flex; align-items: center;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.contact-card:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,.28); }
+
+/* ================================
+   TIMELINE (Experience)
+   ================================ */
+.timeline {
+  position: relative; margin-top: 1.25rem;
+}
+.timeline::before {
+  content: ""; position: absolute; left: 24px; top: 0; bottom: 0;
+  width: 4px; background: rgba(255,255,255,.15); border-radius: 2px;
+}
+.t-item { position: relative; margin: 28px 0 48px 0; }
+.t-dot {
+  position: absolute; left: 16px; top: 12px;
+  width: 20px; height: 20px; background: #cfe5d6; border: 4px solid #4b8062; border-radius: 50%;
+}
+.t-card {
+  margin-left: 70px; background: #ffffff; color: #1f2a2a;
+  border: 1px solid #dfe8e1; border-radius: 18px;
+  padding: 18px 20px; box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+.t-meta { color: #597a6a; font-weight: 700; margin-bottom: 6px; }
+.t-sub { color: #6d6d6d; margin-bottom: 10px; }
+.t-pill {
+  display: inline-block; background: #efdfcd; color: #4f3b2b;
+  padding: 10px 12px; border-radius: 12px; font-weight: 600;
 }
 
-a:hover {
-  color: #90e0ef;
+/* ================================
+   PROJECT CARDS GRID
+   ================================ */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 1.25rem;
 }
-
-.btn, .btn-primary {
-  display: inline-block;
-  background-color: #00b4d8;
-  color: #0b0c10;
-  padding: 10px 18px;
-  border-radius: 8px;
-  border: none;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
+.project-card {
+  background: #ffffff;
+  border: 1px solid #cfe5d6;
+  border-radius: 20px;
+  padding: 22px 22px 18px 22px;
+  box-shadow: 0 18px 38px rgba(0,0,0,.08);
 }
-
-.btn:hover, .btn-primary:hover {
-  background-color: #0096c7;
-  color: #ffffff;
+.project-card h3 { margin: 10px 0; color: #2b2b2b; }
+.p-icon {
+  width: 64px; height: 64px; border-radius: 16px;
+  background: #cfe5d6; display: inline-flex; align-items: center; justify-content: center;
+  font-size: 30px; box-shadow: 0 10px 20px rgba(0,0,0,.08); margin-bottom: 8px;
 }
+.chips { margin: 10px 0 12px 0; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #f2efe9; color: #503a2e; border-radius: 999px;
+  padding: 6px 12px; font-weight: 700; font-size: .85rem;
+}
+.p-link {
+  display: inline-block; margin-top: 2px;
+  background: #155084; color: #fff !important;
+  padding: 9px 14px; border-radius: 10px; text-decoration: none; font-weight: 700;
+}
+.p-link:hover { filter: brightness(1.1); }
 
-/* Cards */
+/* ================================
+   Cards (generic)
+   ================================ */
 .card {
   background-color: #121417;
   border: 1px solid #1f242b;
   border-radius: 12px;
   padding: 16px;
   color: #e6e6e6;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  transition: transform .3s ease, box-shadow .3s ease;
 }
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Stats section boxes */
-.stat {
-  background-color: #121417;
-  border: 1px solid #1f242b;
-  color: #e6e6e6;
-  border-radius: 12px;
-  padding: 16px;
-  text-align: center;
-}
-
-.stat strong {
-  display: block;
-  font-size: 1.6rem;
-  color: #00b4d8;
-}
-
-/* Footer */
-footer, .page-footer {
-  background-color: #0b0c10;
-  color: #8e9aa9;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 0.9rem;
-}
-
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Keep anchored headings visible below sticky navbar */
-:where(h1, h2, h3)[id] {
-  scroll-margin-top: 110px;
-}
-
-/* ================================
-   NAVBAR — White Rounded Centered
-   ================================ */
-
-.navbar {
-  background: #ffffff !important;      /* clean white pill navbar */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  max-width: 950px;                    /* compact like reference */
-  margin: 25px auto;                   /* center horizontally */
-  padding: 12px 40px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Remove old dark background */
-.navbar-dark {
-  background: transparent !important;
-  border-bottom: none !important;
-}
-
-/* Center the nav items */
-.navbar .navbar-collapse {
-  justify-content: center !important;
-}
-
-.navbar .navbar-nav {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  gap: 24px;
-}
-
-/* Navbar Brand */
-.navbar .navbar-brand {
-  color: #155084 !important;    /* your navy tone */
-  font-weight: 700;
-  font-size: 1.08rem;           /* bumped up */
-  margin-right: 20px;
-}
-
-/* Navbar Links */
-.navbar .nav-link {
-  color: #155084 !important;     /* navy text for balance */
-  font-weight: 500;
-  font-size: 1.08rem;            /* larger text */
-  padding: 12px 22px;            /* more spacing */
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
-  background: rgba(21, 80, 132, 0.12);
-  color: #0b0c10 !important;
-}
-
-/* Navbar right icons */
-.navbar .navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-/* Keeps navbar fixed at top while centered */
-.navbar-container {
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: transparent;
-  padding-top: 10px;
-}
-
-/* Hide Quarto theme toggle */
-.quarto-color-scheme-toggle {
-  display: none !important;
-}
-
-/* --- Contact cards --- */
-.contact-cards {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.contact-card {
-  background: #ffffff;
-  color: #155084;
-  border-radius: 16px;
-  padding: 12px 16px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.contact-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
-}
-
-/* --- Navbar right icons alignment fix --- */
-.navbar .navbar-right,
-.navbar .navbar-nav:last-child {
-  gap: 8px !important;            /* reduce the spacing */
-  margin-left: 16px !important;   /* move closer to main links */
-}
-
-/* Reduce search icon padding */
-.navbar .nav-item .bi-search,
-.navbar .quarto-navbar-tools {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding: 0 !important;
-}
-
-/* Optional: nudge icon vertical alignment slightly */
-.navbar .bi, .navbar .nav-item svg {
-  vertical-align: middle;
-  transform: translateY(-1px);
-}
+.card:hover { transform: translateY(-4px); box-shadow: 0 4px 10px rgba(0,0,0,.5); }
