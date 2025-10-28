@@ -63,30 +63,6 @@ Relevant Courses: Information Technology, Financial Accounts, Digital Marketing,
 
 ---
 
-# 📊 Projects
-
-### Programming for Analytics *(Python, Pandas, SQLite, Seaborn)* — *Aug 2024 – Dec 2024*  
-- Queried and structured 48,000+ NYC Airbnb records using SQL and Pandas for trend analysis.  
-- Built an SQLite database and ETL workflow to simulate scalable data pulls.  
-- Designed 10+ Seaborn/Matplotlib dashboards, presenting borough-level rental trends to peers and faculty.  
-
----
-
-### Marketing Analytics *(Excel, Tableau)* — *Aug 2024 – Dec 2024*  
-- Designed and executed a marketing analytics study using Excel and Tableau to answer a key business question with data-backed insights.  
-- Cleaned and analyzed 500+ marketing campaign records to identify key performance drivers.  
-- Created 5+ pivot tables and 10+ visualizations, including scatter plots, histograms, and line charts, to extract actionable insights.  
-- Developed data-driven conclusions that identified top trends and improved marketing decision-making by 20%.  
-
----
-
-### Relational Database Design and Implementation *(MS Access, MySQL)* — *Jan 2024 – May 2024*  
-- Developed and normalized a course registration database with Entity-Relationship modeling.  
-- Executed complex DDL and DML queries to manage multi-table relationships efficiently.  
-- Created an Entity-Relationship model normalized into relational tables to optimize performance and data consistency.  
-
----
-
 # 🧰 Skills & Certifications
 
 **Technical Skills:** Python, MS Access, Power BI, Tableau, WordPress, MySQL, SQLite, VS Code, GitHub, Advanced Excel (Pivot Tables, formulas), Jupyter, NumPy, Google Analytics, Mailchimp, Zoho, Figma, HubSpot, PeopleSoft  
