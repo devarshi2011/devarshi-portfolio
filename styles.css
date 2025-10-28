@@ -93,6 +93,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Keep anchored headings visible below sticky navbar */
+:where(h1, h2, h3)[id] {
+  scroll-margin-top: 110px;
+}
+
 /* ================================
    NAVBAR — White Rounded Centered
    ================================ */
@@ -216,3 +221,8 @@ html {
   padding: 0 !important;
 }
 
+/* Optional: nudge icon vertical alignment slightly */
+.navbar .bi, .navbar .nav-item svg {
+  vertical-align: middle;
+  transform: translateY(-1px);
+}
