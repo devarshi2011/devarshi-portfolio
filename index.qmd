@@ -3,15 +3,19 @@ title: "Portfolio"
 format: html
 ---
 
-
-
-
-
-
-
-# 👋 Hi, I am Devarshi Lala  
+# Hi, I am Devarshi Lala  
 MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.  
 
 Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.  
-Explore my [Projects](projects.qmd) to see how I apply data storytelling, R, Python, and Tableau to real-world problems, or learn more about my [Experience](experience.qmd).  
+  
 
+## Contact {#contact}
+
+<div class="contact-cards">
+  <a class="contact-card" href="mailto:devlala20@gmail.com">
+    📧&nbsp; devlala20@gmail.com
+  </a>
+  <a class="contact-card" href="https://www.linkedin.com/in/devarshi-lala/" target="_blank" rel="noopener">
+    🔗&nbsp; LinkedIn
+  </a>
+</div>
