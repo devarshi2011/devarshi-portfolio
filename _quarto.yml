@@ -8,7 +8,7 @@ website:
   navbar:
     logo: images/logo.png
     right:
-      - text: "Home"
+      - text: "About Me"
         href: index.qmd
       - text: "Projects"
         href: projects.qmd
