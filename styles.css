@@ -1,225 +1,163 @@
 /* ================================
-   Dark Navy Theme — Devarshi Lala
+   SECTION SNAP LAYOUT
    ================================ */
 
-/* Body and Global Styles */
-html { scroll-behavior: smooth; }
-
+/* Scroll snapping: one section per screen */
+html, body {
+  height: 100%;
+}
 body {
-  background-color: #155084 !important;   /* Navy blue */
-  color: #e6e6e6;
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
-  margin: 0;
+  scroll-snap-type: y mandatory;      /* snap by section */
+  overflow-y: scroll;                  /* normal scroll */
 }
 
-/* Headings (no underlines) */
-h1, h2, h3, h4 {
-  color: #ffffff;
-  letter-spacing: 0.5px;
-  font-weight: 600;
-  border: none !important;
-}
-
-/* Remove any theme-added rule underlines globally */
-.quarto-title-block h1,
-.quarto-title-block h2,
-.quarto-title-block h3,
-h1, h2 { border-bottom: none !important; }
-
-/* Links / Buttons */
-a {
-  color: #00b4d8;
-  text-decoration: none;
-  transition: color .2s ease;
-}
-a:hover { color: #90e0ef; }
-
-.btn, .btn-primary {
-  display: inline-block;
-  background-color: #00b4d8;
-  color: #0b0c10;
-  padding: 10px 18px;
-  border-radius: 8px;
-  border: none;
-  font-weight: 600;
-  transition: background-color .3s ease;
-}
-.btn:hover, .btn-primary:hover { background-color: #0096c7; color: #fff; }
-
-/* ================================
-   NAVBAR — White Rounded Centered
-   ================================ */
-
-.navbar {
-  background: #ffffff !important;
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 50px;
-  max-width: 950px;
-  margin: 25px auto;
-  padding: 12px 40px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+/* Each section fills the viewport and centers content */
+.fullvh {
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-.navbar-dark { background: transparent !important; border-bottom: none !important; }
-
-.navbar .navbar-collapse { justify-content: center !important; }
-.navbar .navbar-nav { display: flex; justify-content: center; flex-grow: 1; gap: 24px; }
-
-.navbar .navbar-brand {
-  color: #155084 !important;
-  font-weight: 700;
-  font-size: 1.08rem;
-  margin-right: 20px;
+.snap {
+  scroll-snap-align: start;
+  scroll-margin-top: 110px;            /* anchor offset for sticky navbar */
 }
 
-.navbar .nav-link {
-  color: #155084 !important;
-  font-weight: 500;
-  font-size: 1.08rem;
-  padding: 12px 22px;
-  border-radius: 30px;
-  transition: all .3s ease;
-}
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
-  background: rgba(21,80,132,0.12);
-  color: #0b0c10 !important;
+/* Section containers and spacing */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-/* Navbar icons spacing: move closer to links */
-.navbar .navbar-right,
-.navbar .navbar-nav:last-child {
-  gap: 8px !important;
-  margin-left: 16px !important;
-}
-.navbar .nav-item .bi-search,
-.navbar .quarto-navbar-tools {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding: 0 !important;
+/* Remove the thin rule Quarto sometimes injects under headings */
+section h1, section h2, section h3 {
+  border-bottom: none !important;
 }
 
-/* Hide color-scheme toggle if present */
-.quarto-color-scheme-toggle { display: none !important; }
+/* Alternating backgrounds per section (subtle, still navy theme) */
+.section-home     { background: #155084; }
+.section-about    { background: #174c7a; }
+.section-experience { background: #1a4a72; }
+.section-projects { background: #1c476a; }
+.section-contact  { background: #1e4462; }
+
+/* Text contrast */
+.section-home     .container,
+.section-about    .container,
+.section-experience .container,
+.section-projects .container,
+.section-contact  .container {
+  color: #eaf3fb;
+}
+
+/* Give some breathing room to text inside full-screen sections */
+.section-home p,
+.section-about p,
+.section-contact p { max-width: 800px; }
 
 /* ================================
-   SECTION LAYOUT (one-at-a-time feel)
+   TIMELINE (Experience)
    ================================ */
-
-.section {
-  min-height: 88vh;                 /* fill the viewport */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;          /* vertically center content */
-  padding: 64px 7vw;
-  gap: 18px;
-  scroll-margin-top: 110px;         /* anchor offset for navbar */
-}
-
-/* Optional alt background if you want to alternate later
-.section--alt { background: #104875; }
-*/
-
-/* ================================
-   TIMELINE STYLES (Experience)
-   ================================ */
-
 .timeline {
   position: relative;
-  margin-top: 10px;
+  margin-top: 18px;
   padding-left: 28px;
 }
 .timeline::before {
   content: "";
   position: absolute;
-  top: 0; bottom: 0; left: 11px;
+  left: 12px;
+  top: 0;
+  bottom: 0;
   width: 2px;
-  background: rgba(255,255,255,.25);
+  background: rgba(255,255,255,0.25);
 }
-
-.t-item { position: relative; margin: 28px 0; }
+.t-item {
+  position: relative;
+  margin: 26px 0;
+}
 .t-dot {
-  position: absolute; left: 4px; top: 10px;
-  width: 16px; height: 16px; border-radius: 50%;
-  background: #9ad1b8; box-shadow: 0 0 0 6px rgba(154,209,184,0.25);
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.15);
 }
 .t-card {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.18);
   border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: 0 8px 22px rgba(0,0,0,.18);
+  padding: 14px 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.22);
 }
-.t-meta { color: #cfe8ff; font-weight: 600; margin-bottom: 2px; }
-.t-sub  { color: #e6e6e6; opacity: .9; margin-bottom: 8px; }
+.t-meta { font-size: 0.95rem; opacity: 0.9; margin-bottom: 4px; }
+.t-sub  { font-size: 0.98rem; opacity: 0.9; margin-bottom: 6px; }
 .t-pill {
   display: inline-block;
-  background: rgba(255,255,255,.12);
-  border: 1px solid rgba(255,255,255,.18);
-  padding: 8px 12px; border-radius: 10px;
+  margin-top: 8px;
+  background: rgba(255,255,255,0.12);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
 }
 
 /* ================================
-   PROJECT CARDS (2-up grid)
+   PROJECT CARDS GRID
    ================================ */
-
-.projects {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(280px, 1fr));
-  gap: 26px;
+  gap: 22px;
+  margin-top: 18px;
 }
 @media (max-width: 900px) {
-  .projects { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
 }
 
 .project-card {
-  background: #ffffff;
-  color: #2b3a46;
-  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.18);
   border-radius: 18px;
-  padding: 22px 24px;
-  box-shadow: 0 12px 28px rgba(0,0,0,.18);
+  padding: 18px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.25);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
-.project-card h3 { color: #2b3a46; margin-top: 8px; }
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 48px rgba(0,0,0,0.30);
+}
 .p-icon {
-  width: 56px; height: 56px;
+  width: 54px; height: 54px;
   border-radius: 14px;
-  background: #cfe8ff;
   display: grid; place-items: center;
-  font-size: 26px; color: #1b4965;
-  box-shadow: 0 10px 26px rgba(27,73,101,.25);
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.28);
+  font-size: 26px;
   margin-bottom: 10px;
 }
-
-.chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 14px 0; }
+.chips { margin: 10px 0 6px; }
 .chip {
-  background: #eef6ff;
-  color: #155084;
-  font-weight: 600;
+  display: inline-block;
   padding: 6px 10px;
   border-radius: 999px;
-  font-size: .9rem;
-  border: 1px solid rgba(21,80,132,.15);
+  background: rgba(255,255,255,0.14);
+  margin-right: 6px;
+  font-size: 0.9rem;
 }
-
 .p-link {
   display: inline-block;
-  background: #155084;
-  color: #fff !important;
-  padding: 10px 14px;
-  border-radius: 999px;
+  margin-top: 6px;
   font-weight: 700;
-  box-shadow: 0 10px 24px rgba(21,80,132,.30);
+  color: #fff;
+  text-decoration: underline;
 }
-.p-link:hover { filter: brightness(1.12); }
 
 /* ================================
    CONTACT CARDS
    ================================ */
-
 .contact-cards {
   display: flex;
   gap: 16px;
@@ -228,34 +166,15 @@ a:hover { color: #90e0ef; }
 }
 .contact-card {
   background: #ffffff;
-  color: #155084 !important;
+  color: #155084;
   border-radius: 16px;
   padding: 12px 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
   font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none !important;
-  transition: transform .15s ease, box-shadow .15s ease;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 .contact-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(0,0,0,.28);
-}
-
-/* Alternate Background Colors for Sections */
-.section--navy  { background-color: #155084; color: #ffffff; }
-.section--light { background-color: #f7f9fc; color: #0b0c10; }
-.section--beige { background-color: #f6f1ea; color: #0b0c10; }
-.section--cream { background-color: #fdfaf5; color: #0b0c10; }
-
-/* For all sections, unify spacing */
-.section {
-  min-height: 88vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 64px 7vw;
-  gap: 18px;
-  scroll-margin-top: 110px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.30);
 }
