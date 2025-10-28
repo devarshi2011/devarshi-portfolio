@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Devarshi Lala"
+  description: "MSc Business Analytics Student | Turning Data into Insights"
+  navbar:
+    logo: images/logo.png
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Experience"
+        href: experience.qmd
+      - icon: github
+        href: https://github.com/devarshi2011
+      - icon: linkedin
+        href: https://www.linkedin.com/in/devarshi-lala/
+  page-footer:
+    left: "© 2025 Devarshi Lala"
+    right: "Designed by Devarshi Lala"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
