@@ -3,8 +3,6 @@ project:
   output-dir: _site   # GitHub builds from this folder
 
 website:
-  title: ""
-  description: "MSc Business Analytics Student | Turning Data into Insights"
   navbar:
     left:
       - text: "Home"
@@ -21,13 +19,8 @@ website:
       - icon: github
         href: https://github.com/devarshi2011
         aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/devarshi-lala/
-        aria-label: LinkedIn
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    theme: flatly        
     css: styles.css
