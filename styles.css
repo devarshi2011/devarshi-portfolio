@@ -131,7 +131,8 @@ html {
 /* Navbar Brand */
 .navbar .navbar-brand {
   color: #155084 !important;    /* your navy tone */
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.08rem;           /* bumped up */
   margin-right: 20px;
 }
 
@@ -139,7 +140,8 @@ html {
 .navbar .nav-link {
   color: #155084 !important;     /* navy text for balance */
   font-weight: 500;
-  padding: 10px 18px;
+  font-size: 1.08rem;            /* larger text */
+  padding: 12px 22px;            /* more spacing */
   border-radius: 30px;
   transition: all 0.3s ease;
 }
@@ -166,4 +168,35 @@ html {
   z-index: 1000;
   background: transparent;
   padding-top: 10px;
+}
+
+/* Hide Quarto theme toggle */
+.quarto-color-scheme-toggle {
+  display: none !important;
+}
+
+/* --- Contact cards --- */
+.contact-cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.contact-card {
+  background: #ffffff;
+  color: #155084;
+  border-radius: 16px;
+  padding: 12px 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
 }
