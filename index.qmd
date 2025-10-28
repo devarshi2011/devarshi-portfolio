@@ -2,13 +2,62 @@
 format: html
 ---
 
-# Hi, I am Devarshi Lala  
-MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.  
+## Hi, I am Devarshi Lala {#top}
+MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.
 
-Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.  
-  
+Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.
 
-## Let's Connect {#contact}
+
+## About {#about}
+An MSc Business Analytics graduate student at Baruch College with a background in marketing, data analytics, and operations. Over the past few years, I have worked across education, tech, and construction sectors, using data to improve campaign performance, streamline operations, and support strategic decision-making.
+
+From managing student databases and analyzing web traffic to building dashboards and running A/B tests, I enjoy solving problems and finding insights that add real value. My toolkit includes **Python**, **SQL**, **Excel**, **Tableau**, **Power BI**, and **Google Analytics**.
+
+What drives me is the opportunity to work on projects that create impact, whether it is improving marketing ROI, helping students reach their goals, or building smarter systems through data.
+
+
+## Experience {#experience}
+
+### RF CUNY – Facilities Planning, Construction, and Management, New York, NY  
+**Administrative Assistant** *(Apr 2025 – Present)*  
+- Collaborated with cross-functional teams and supported client-related tasks to improve coordination.  
+- Scheduled and coordinated 15+ weekly meetings in Outlook, improving interdepartmental response time by 30%.  
+- Tracked monthly expenses in Excel, reducing supply costs by 10%.  
+- Supported onboarding logistics for new hires and maintained organized shared spaces.
+
+### WHITELION Systems Pvt Ltd, Surat, India  
+**Marketing Communication Executive** *(Mar 2022 – Aug 2023)*  
+- Improved campaign performance by 18% through A/B testing across Google Ads and Mailchimp.  
+- Partnered with sales and product teams to apply data insights, boosting retention by 12%.  
+- Built 15+ stakeholder presentations translating metrics into recommendations.
+
+### WebglowX Solutions LLP, Surat, India  
+**Associate Marketing Analyst** *(Jul 2021 – Mar 2022)*  
+- Built dashboards in Power BI and Tableau to track CAC, ROAS, and engagement.  
+- Managed website datasets with SQL/MS Access to surface insights that improved acquisition by 18%.  
+- Mentored three interns in SQL and reporting.
+
+### Magicrete Building Solutions, Surat, India  
+**Marketing Intern** *(Oct 2020 – Mar 2021)*  
+- Conducted market analysis that contributed to a 15% increase in sales.  
+- Built Excel-based performance reports and improved efficiency tracking by 25%.
+
+
+## Projects {#projects}
+
+- **Programming for Analytics — Python, Pandas, SQLite, Seaborn**  
+  Queried and structured 48,000+ NYC Airbnb records, built an SQLite ETL pipeline, and designed 10+ visualizations of borough trends.
+
+- **Marketing Analytics — Excel, Tableau**  
+  Cleaned and analyzed 500+ campaign records, created pivot tables and charts, and produced insights that improved decision-making by 20%.
+
+- **Relational Database Design — MS Access, MySQL**  
+  Designed and normalized a course registration database with ER modeling and multi-table queries.
+
+> Want the full gallery? See the dedicated **[Projects page](projects.qmd)**.
+
+
+## Let’s Connect {#contact}
 
 <div class="contact-cards">
   <a class="contact-card" href="mailto:devlala20@gmail.com">
