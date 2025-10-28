@@ -1,7 +1,13 @@
 ---
-title: "Devarshi Lala"
+title: "Portfolio"
 format: html
 ---
+
+
+
+
+
+
 
 # 👋 Hi, I am Devarshi Lala  
 MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.  
