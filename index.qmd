@@ -1,107 +1,130 @@
 ---
-title: ""
 format: html
 ---
 
-::: {#home .section .section--navy}
-# Hi, I am Devarshi Lala
+<!-- HOME -->
+<section id="home" class="snap fullvh section-home">
+  <div class="container">
+    <h1>Hi, I am Devarshi Lala</h1>
+    <p>MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.</p>
+    <p>Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.</p>
+  </div>
+</section>
 
-MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.
+<!-- ABOUT -->
+<section id="about" class="snap fullvh section-about">
+  <div class="container">
+    <h2>About</h2>
+    <p>An MSc Business Analytics graduate student at Baruch College with a background in marketing, data analytics, and operations. Over the past few years, I have worked across education, tech, and construction sectors, using data to improve campaign performance, streamline operations, and support strategic decision-making.</p>
+    <p>From managing student databases and analyzing web traffic to building dashboards and running A/B tests, I enjoy solving problems and finding insights that add real value. My toolkit includes <strong>Python, SQL, Excel, Tableau, Power BI, and Google Analytics</strong>.</p>
+    <p>What drives me is the opportunity to work on projects that create impact, whether it is improving marketing ROI, helping students reach their goals, or building smarter systems through data.</p>
+  </div>
+</section>
 
-Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.
-:::
+<!-- EXPERIENCE -->
+<section id="experience" class="snap fullvh section-experience">
+  <div class="container">
+    <h2>Professional Journey</h2>
 
-::: {#about .section .section--light}
-## About
+    <div class="timeline">
+      <!-- Item 1 -->
+      <article class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-meta">Apr 2025 – Present</div>
+          <h3>Administrative Assistant</h3>
+          <div class="t-sub">RF CUNY – FPCM • New York, NY</div>
+          <div class="t-pill">Scheduled and coordinated 15+ weekly meetings with faster interdepartmental response</div>
+        </div>
+      </article>
 
-An MSc Business Analytics graduate student at Baruch College with a background in marketing, data analytics, and operations. Over the past few years, I have worked across education, tech, and construction sectors, using data to improve campaign performance, streamline operations, and support strategic decision-making.
+      <!-- Item 2 -->
+      <article class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <div class="t-meta">Mar 2022 – Aug 2023</div>
+          <h3>Marketing Communication Executive</h3>
+          <div class="t-sub">WHITELION Systems Pvt Ltd • Surat, India</div>
+          <div class="t-pill">A/B tests and analytics improved campaign performance and retention</div>
+        </div>
+      </article>
 
-From managing student databases and analyzing web traffic to building dashboards and running A/B tests, I enjoy solving problems and finding insights that add real value. My toolkit includes **Python**, **SQL**, **Excel**, **Tableau**, **Power BI**, and **Google Analytics**.
-
-What drives me is the opportunity to work on projects that create impact, whether it is improving marketing ROI, helping students reach their goals, or building smarter systems through data.
-:::
-
-::: {#experience .section .section--beige}
-## Professional Journey
-
-<div class="timeline">
-
-  <article class="t-item">
-    <div class="t-dot"></div>
-    <div class="t-card">
-      <div class="t-meta">Apr 2025 – Present</div>
-      <h3>Administrative Assistant</h3>
-      <div class="t-sub">RF CUNY – FPCM • New York, NY</div>
-      <div class="t-pill">Scheduled and coordinated 15+ weekly meetings with faster interdepartmental response time.</div>
+      <!-- Add more items as needed -->
     </div>
-  </article>
+  </div>
+</section>
 
-  <article class="t-item">
-    <div class="t-dot"></div>
-    <div class="t-card">
-      <div class="t-meta">Mar 2022 – Aug 2023</div>
-      <h3>Marketing Communication Executive</h3>
-      <div class="t-sub">WHITELION Systems Pvt Ltd • Surat, India</div>
-      <div class="t-pill">A/B tests and analytics improved campaign performance and retention.</div>
+<!-- PROJECTS -->
+<section id="projects" class="snap fullvh section-projects">
+  <div class="container">
+    <h2>Projects That Matter</h2>
+
+    <div class="projects-grid">
+      <!-- P1 -->
+      <article class="project-card">
+        <div class="p-icon">🌍</div>
+        <h3>Environmental Efficiency of U.S. Transit — <em>STA9750 Project 1</em></h3>
+        <p>Merged NTD and EIA datasets to evaluate emissions, energy use, and efficiency; highlighted leaders in electrification and multi-modal operations.</p>
+        <div class="chips">
+          <span class="chip">R</span><span class="chip">Tidyverse</span><span class="chip">ggplot2</span>
+        </div>
+        <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp02.html" target="_blank" rel="noopener">View Project</a>
+      </article>
+
+      <!-- P2 -->
+      <article class="project-card">
+        <div class="p-icon">🎧</div>
+        <h3>Spotify Analytics and Playlist Optimization — <em>STA9750 Project 2</em></h3>
+        <p>Cleaned and combined Spotify song and playlist data, explored feature trends, and modeled traits for a data-driven “Ultimate Playlist.”</p>
+        <div class="chips">
+          <span class="chip">R</span><span class="chip">Tidyverse</span><span class="chip">Quarto</span>
+        </div>
+        <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp03.html" target="_blank" rel="noopener">View Project</a>
+      </article>
+
+      <!-- P3 -->
+      <article class="project-card">
+        <div class="p-icon">🗳️</div>
+        <h3>2024 U.S. Election Storytelling — <em>STA9750 Project 3</em></h3>
+        <p>Analyzed county-level voting data to test claims of a national shift; built figures that show how narratives change by metric and lens.</p>
+        <div class="chips">
+          <span class="chip">R</span><span class="chip">dplyr</span><span class="chip">ggplot2</span>
+        </div>
+        <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp04.html" target="_blank" rel="noopener">View Project</a>
+      </article>
+
+      <!-- P4 -->
+      <article class="project-card">
+        <div class="p-icon">🚇</div>
+        <h3>Remote Work vs NYC Subway Ridership — <em>Final Project</em></h3>
+        <p>Joined MTA ridership and Census commuting data to study neighborhood-level recovery patterns from 2019 to 2023.</p>
+        <div class="chips">
+          <span class="chip">R</span><span class="chip">dplyr</span><span class="chip">ggplot2</span>
+        </div>
+        <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/final-Project.html" target="_blank" rel="noopener">View Project</a>
+      </article>
+
+      <!-- P5 (example placeholder) -->
+      <article class="project-card">
+        <div class="p-icon">📈</div>
+        <h3>Marketing Analytics Study — <em>Course Project</em></h3>
+        <p>Cleaned 500+ records, built pivot-based visuals, and generated insights that improved decision-making by 20%.</p>
+        <div class="chips">
+          <span class="chip">Excel</span><span class="chip">Tableau</span>
+        </div>
+        <a class="p-link" href="#" aria-disabled="true">Summary Only</a>
+      </article>
     </div>
-  </article>
+  </div>
+</section>
 
-</div>
-:::
-
-::: {#projects .section .section--cream}
-## Projects That Matter
-
-<div class="projects">
-
-  <article class="project-card">
-    <div class="p-icon">🌎</div>
-    <h3>Environmental Efficiency of U.S. Transit — <em>STA9750 Project 1</em></h3>
-    <p>Merged NTD + EIA datasets to evaluate emissions, energy-use, and efficiency; highlighted leaders in electrification and multimodal transit.</p>
-    <div class="chips">
-      <span class="chip">R</span><span class="chip">Tidyverse</span><span class="chip">ggplot2</span>
+<!-- CONTACT -->
+<section id="contact" class="snap fullvh section-contact">
+  <div class="container">
+    <h2>Let’s Connect</h2>
+    <div class="contact-cards">
+      <a class="contact-card" href="mailto:devlala20@gmail.com">📧&nbsp; devlala20@gmail.com</a>
+      <a class="contact-card" href="https://www.linkedin.com/in/devarshi-lala/" target="_blank" rel="noopener">🔗&nbsp; LinkedIn</a>
     </div>
-    <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp02.html" target="_blank" rel="noopener">View Project</a>
-  </article>
-
-  <article class="project-card">
-    <div class="p-icon">🎧</div>
-    <h3>Spotify Analytics & Playlist Optimization — <em>STA9750 Project 2</em></h3>
-    <p>Cleaned & combined Spotify song + playlist data, analyzed feature trends, and modeled traits that define memorable tracks.</p>
-    <div class="chips">
-      <span class="chip">R</span><span class="chip">Tidyverse</span><span class="chip">Quarto</span>
-    </div>
-    <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp03.html" target="_blank" rel="noopener">View Project</a>
-  </article>
-
-  <article class="project-card">
-    <div class="p-icon">🗳️</div>
-    <h3>2024 U.S. Election Storytelling — <em>STA9750 Project 3</em></h3>
-    <p>Cleaned & analyzed county-level voting data to test claims of a national shift; built figures to illustrate partisan narratives.</p>
-    <div class="chips">
-      <span class="chip">R</span><span class="chip">dplyr</span><span class="chip">ggplot2</span>
-    </div>
-    <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp04.html" target="_blank" rel="noopener">View Project</a>
-  </article>
-
-  <article class="project-card">
-    <div class="p-icon">🚇</div>
-    <h3>Remote Work & NYC Subway Ridership — <em>Final Project</em></h3>
-    <p>Combined MTA ridership with Census WFH stats to quantify how commuting shifted across ZIP codes from 2019–2023.</p>
-    <div class="chips">
-      <span class="chip">R</span><span class="chip">Tidyverse</span><span class="chip">dplyr</span>
-    </div>
-    <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/final-Project.html" target="_blank" rel="noopener">View Project</a>
-  </article>
-
-</div>
-:::
-
-::: {#contact .section .section--navy}
-## Let’s Connect
-
-::: {.contact-cards}
-[📧 devlala20@gmail.com](mailto:devlala20@gmail.com){.contact-card}
-[🔗 LinkedIn](https://www.linkedin.com/in/devarshi-lala/){.contact-card target="_blank" rel="noopener"}
-:::
-:::
+  </div>
+</section>
