@@ -1,26 +1,29 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: _site   # GitHub builds from this folder
 
 website:
   title: "Devarshi Lala"
   description: "MSc Business Analytics Student | Turning Data into Insights"
   navbar:
-    logo: images/logo.png
-    right:
-      - text: "About Me"
-        href: index.qmd
-      - text: "Projects"
-        href: projects.qmd
+    left:
+      - text: "Home"
+        href: index.qmd#top
+      - text: "About"
+        href: index.qmd#about
       - text: "Experience"
-        href: experience.qmd
+        href: index.qmd#experience
+      - text: "Projects"
+        href: index.qmd#projects
+      - text: "Contact"
+        href: index.qmd#contact
+    right:
       - icon: github
         href: https://github.com/devarshi2011
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/devarshi-lala/
-  page-footer:
-    left: "© 2025 Devarshi Lala"
-    right: "Designed by Devarshi Lala"
+        aria-label: LinkedIn
 
 format:
   html:
