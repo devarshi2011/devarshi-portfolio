@@ -3,7 +3,7 @@ title: ""
 format: html
 ---
 
-::: {#home .section .section--home}
+::: {#home .section .section--navy}
 # Hi, I am Devarshi Lala
 
 MSc Business Analytics student at Baruch College, passionate about transforming data into strategic and insightful decisions.
@@ -11,7 +11,7 @@ MSc Business Analytics student at Baruch College, passionate about transforming 
 Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.
 :::
 
-::: {#about .section}
+::: {#about .section .section--light}
 ## About
 
 An MSc Business Analytics graduate student at Baruch College with a background in marketing, data analytics, and operations. Over the past few years, I have worked across education, tech, and construction sectors, using data to improve campaign performance, streamline operations, and support strategic decision-making.
@@ -21,12 +21,11 @@ From managing student databases and analyzing web traffic to building dashboards
 What drives me is the opportunity to work on projects that create impact, whether it is improving marketing ROI, helping students reach their goals, or building smarter systems through data.
 :::
 
-::: {#experience .section}
+::: {#experience .section .section--beige}
 ## Professional Journey
 
 <div class="timeline">
 
-  <!-- Item 1 -->
   <article class="t-item">
     <div class="t-dot"></div>
     <div class="t-card">
@@ -37,7 +36,6 @@ What drives me is the opportunity to work on projects that create impact, whethe
     </div>
   </article>
 
-  <!-- Item 2 -->
   <article class="t-item">
     <div class="t-dot"></div>
     <div class="t-card">
@@ -48,16 +46,14 @@ What drives me is the opportunity to work on projects that create impact, whethe
     </div>
   </article>
 
-  <!-- Add more items as you like -->
 </div>
 :::
 
-::: {#projects .section}
+::: {#projects .section .section--cream}
 ## Projects That Matter
 
 <div class="projects">
 
-  <!-- P1 -->
   <article class="project-card">
     <div class="p-icon">🌎</div>
     <h3>Environmental Efficiency of U.S. Transit — <em>STA9750 Project 1</em></h3>
@@ -68,7 +64,6 @@ What drives me is the opportunity to work on projects that create impact, whethe
     <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp02.html" target="_blank" rel="noopener">View Project</a>
   </article>
 
-  <!-- P2 -->
   <article class="project-card">
     <div class="p-icon">🎧</div>
     <h3>Spotify Analytics & Playlist Optimization — <em>STA9750 Project 2</em></h3>
@@ -79,7 +74,6 @@ What drives me is the opportunity to work on projects that create impact, whethe
     <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp03.html" target="_blank" rel="noopener">View Project</a>
   </article>
 
-  <!-- P3 -->
   <article class="project-card">
     <div class="p-icon">🗳️</div>
     <h3>2024 U.S. Election Storytelling — <em>STA9750 Project 3</em></h3>
@@ -90,7 +84,6 @@ What drives me is the opportunity to work on projects that create impact, whethe
     <a class="p-link" href="https://devarshi2011.github.io/STA9750-2025-SPRING/mp04.html" target="_blank" rel="noopener">View Project</a>
   </article>
 
-  <!-- P4 -->
   <article class="project-card">
     <div class="p-icon">🚇</div>
     <h3>Remote Work & NYC Subway Ridership — <em>Final Project</em></h3>
@@ -104,7 +97,7 @@ What drives me is the opportunity to work on projects that create impact, whethe
 </div>
 :::
 
-::: {#contact .section}
+::: {#contact .section .section--navy}
 ## Let’s Connect
 
 ::: {.contact-cards}
