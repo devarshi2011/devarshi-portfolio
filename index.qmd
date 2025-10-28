@@ -90,16 +90,27 @@ What drives me is the opportunity to work on projects that create impact, whethe
 
 
 - **Programming for Analytics — Python, Pandas, SQLite, Seaborn**  
-  Queried and structured 48,000+ NYC Airbnb records, built an SQLite ETL pipeline, and designed 10+ visualizations of borough trends.
+  Queried and structured 48,000+ NYC Airbnb records, built an SQLite ETL pipeline, and designed 10+ visualizations of borough trends.  
+  Built an SQLite database and ETL workflow to simulate scalable data pulls.  
+  Designed 10 + Seaborn/Matplotlib dashboards, presenting borough-level rental trends to peers and faculty.  
+
+---
+
+- **Marketing Analytics — Excel, Tableau**   
+  Designed and executed a marketing analytics study using Excel and Tableau to answer a key business question with supporting data insights.
+  Cleaned and analyzed 500+ marketing campaign records to answer key business questions.
+  Created 5+ pivot tables and 10+ visualizations including scatter plots, histograms, and line charts to extract actionable insights.
+  Developed data-driven conclusions that identified top trends and improved potential marketing decision-making by 20%.
+
+
+---
+
+- **Relational Database Design and Implementation — *MS Access, MySQL** 
+  Developed and normalized a course registration database with Entity-Relationship modeling.  
+  Executed DDL and DML queries to manage multi-table relationships efficiently.  
+  Created a normalized E-R model improving database performance and consistency
   
-
-- **Marketing Analytics — Excel, Tableau**  
-  Cleaned and analyzed 500+ campaign records, created pivot tables and charts, and produced insights that improved decision-making by 20%.
-
-- **Relational Database Design — MS Access, MySQL**  
-  Designed and normalized a course registration database with ER modeling and multi-table queries.
-
-
+  
 
 
 ## Let’s Connect {#contact}
