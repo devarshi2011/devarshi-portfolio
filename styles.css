@@ -200,3 +200,19 @@ html {
   transform: translateY(-2px);
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
 }
+
+/* --- Navbar right icons alignment fix --- */
+.navbar .navbar-right,
+.navbar .navbar-nav:last-child {
+  gap: 8px !important;            /* reduce the spacing */
+  margin-left: 16px !important;   /* move closer to main links */
+}
+
+/* Reduce search icon padding */
+.navbar .nav-item .bi-search,
+.navbar .quarto-navbar-tools {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
