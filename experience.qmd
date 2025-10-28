@@ -1,0 +1,106 @@
+---
+title: "Experience & Education"
+---
+
+# 📚 Education
+
+### Baruch College, Zicklin School of Business — *New York, NY*  
+**Master of Science in Business Analytics** *(Dec 2025)*  
+GPA: 3.6  
+Relevant Courses: Programming, Database Management, Marketing Analytics, Web Analytics, Managerial Statistics  
+
+---
+
+### M.K. Sanghvi College — *Mumbai, India*  
+**Bachelor of Management Studies (Marketing)** *(May 2021)*  
+GPA: 3.7  
+Relevant Courses: Information Technology, Financial Accounts, Digital Marketing, Managerial Statistics  
+
+---
+
+# 💼 Experience
+
+### RF CUNY – Facilities Planning, Construction, and Management | *New York, NY*  
+**Administrative Assistant** *(Apr 2025 – Present)*  
+- Collaborated with cross-functional teams and supported client-related tasks, improving intercultural communication and coordination.  
+- Oversaw inventory and organization of office supplies, ensuring shared spaces like conference rooms remain functional and well-prepared.  
+- Processed incoming mail, deliveries, and staff timesheet data while supporting day-to-day administrative needs.  
+- Scheduled and coordinated 15+ weekly team meetings using Microsoft Outlook, improving interdepartmental response time by 30%.  
+- Resolved minor office tech issues and maintained equipment functionality across shared spaces.  
+- Facilitated onboarding for 5+ new hires by preparing materials and coordinating orientation logistics.  
+- Tracked monthly expenses using advanced Excel, providing data-driven insights that reduced supply costs by 10%.  
+
+---
+
+### WHITELION Systems Pvt Ltd | *Surat, India*  
+**Marketing Communication Executive** *(Mar 2022 – Aug 2023)*  
+- Drove 10% sales growth of smart switches by optimizing advertising and marketing campaign performance through Excel and Google Analytics.  
+- Designed and executed A/B testing strategies for campaigns (Google Ads, Mailchimp), improving performance by 18%.  
+- Partnered with sales and product teams to apply data-driven insights, boosting customer retention by 12%.  
+- Built 15+ stakeholder presentations that translated technical metrics into actionable recommendations for leadership.  
+- Improved campaign performance and customer engagement by 15% through data-driven recommendations.  
+- Developed and implemented social media strategies that improved engagement by 20%.  
+
+---
+
+### WebglowX Solutions LLP | *Surat, India*  
+**Associate Marketing Analyst** *(Jul 2021 – Mar 2022)*  
+- Developed and maintained dashboards in Power BI and Tableau to track KPIs (CAC, ROAS, engagement), improving campaign targeting by 20%.  
+- Created data-driven reports and dashboards to analyze performance and guide digital campaigns, improving client inquiries by 15%.  
+- Queried and managed client website datasets (MS Access, SQL), generating operational insights that improved customer acquisition by 18%.  
+- Delivered 10+ reports and presentations to leadership, identifying 5 new market segments through trend analysis.  
+- Supported operational initiatives by analyzing trends and developing insights for targeted outreach.  
+- Mentored three interns in SQL, providing hands-on training and supporting their project contributions.  
+
+---
+
+### Magicrete Building Solutions | *Surat, India*  
+**Marketing Intern** *(Oct 2020 – Mar 2021)*  
+- Conducted competitor and market analysis to identify growth opportunities, directly contributing to a 15% increase in sales.  
+- Developed Excel-based marketing reports, improving campaign efficiency tracking by 25%.  
+- Generated leads through data analysis of online platforms, directly contributing to a 15% increase in sales.  
+- Oversaw social media accounts and used analytics to boost engagement by 10%, enhancing brand visibility.  
+
+---
+
+# 📊 Projects
+
+### Programming for Analytics *(Python, Pandas, SQLite, Seaborn)* — *Aug 2024 – Dec 2024*  
+- Queried and structured 48,000+ NYC Airbnb records using SQL and Pandas for trend analysis.  
+- Built an SQLite database and ETL workflow to simulate scalable data pulls.  
+- Designed 10+ Seaborn/Matplotlib dashboards, presenting borough-level rental trends to peers and faculty.  
+
+---
+
+### Marketing Analytics *(Excel, Tableau)* — *Aug 2024 – Dec 2024*  
+- Designed and executed a marketing analytics study using Excel and Tableau to answer a key business question with data-backed insights.  
+- Cleaned and analyzed 500+ marketing campaign records to identify key performance drivers.  
+- Created 5+ pivot tables and 10+ visualizations, including scatter plots, histograms, and line charts, to extract actionable insights.  
+- Developed data-driven conclusions that identified top trends and improved marketing decision-making by 20%.  
+
+---
+
+### Relational Database Design and Implementation *(MS Access, MySQL)* — *Jan 2024 – May 2024*  
+- Developed and normalized a course registration database with Entity-Relationship modeling.  
+- Executed complex DDL and DML queries to manage multi-table relationships efficiently.  
+- Created an Entity-Relationship model normalized into relational tables to optimize performance and data consistency.  
+
+---
+
+# 🧰 Skills & Certifications
+
+**Technical Skills:** Python, MS Access, Power BI, Tableau, WordPress, MySQL, SQLite, VS Code, GitHub, Advanced Excel (Pivot Tables, formulas), Jupyter, NumPy, Google Analytics, Mailchimp, Zoho, Figma, HubSpot, PeopleSoft  
+
+**Certifications:**  
+- Microsoft Power BI (Microsoft)  
+- Tableau (DataCamp)  
+- Marketing Analytics (Coursera)  
+- Introduction to Data Science with Python (DataCamp)  
+- Nielsen Certificate in Market Research  
+
+---
+
+# 🤝 Leadership & Volunteering
+
+- Volunteered with **Agram NGO** to teach English, Hindi, and Mathematics to underprivileged children.  
+- Participated in a **Corporate Social Responsibility (CSR)** campaign during tenure at WHITELION Systems promoting community development.  
