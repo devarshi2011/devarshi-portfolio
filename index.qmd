@@ -9,7 +9,7 @@ MSc Business Analytics student at Baruch College, passionate about transforming 
 Welcome to my personal portfolio, where I share my academic and professional projects in data analytics, visualization, and business strategy.  
   
 
-## Contact {#contact}
+## Let's Connect {#contact}
 
 <div class="contact-cards">
   <a class="contact-card" href="mailto:devlala20@gmail.com">
