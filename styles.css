@@ -242,3 +242,20 @@ a:hover { color: #90e0ef; }
   transform: translateY(-2px);
   box-shadow: 0 8px 22px rgba(0,0,0,.28);
 }
+
+/* Alternate Background Colors for Sections */
+.section--navy  { background-color: #155084; color: #ffffff; }
+.section--light { background-color: #f7f9fc; color: #0b0c10; }
+.section--beige { background-color: #f6f1ea; color: #0b0c10; }
+.section--cream { background-color: #fdfaf5; color: #0b0c10; }
+
+/* For all sections, unify spacing */
+.section {
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 7vw;
+  gap: 18px;
+  scroll-margin-top: 110px;
+}
