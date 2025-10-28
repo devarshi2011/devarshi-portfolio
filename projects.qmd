@@ -1,0 +1,86 @@
+---
+title: "Projects & Dashboards"
+---
+
+# 🧩 Data & Analytics Projects
+
+Welcome to my project portfolio, a collection of academic and professional projects that combine data analysis, visualization, and strategy.  
+Each project showcases how I translate complex datasets into actionable narratives using tools like **R, Python, Tableau, SQL, and Quarto**.  
+From exploring urban mobility patterns and political data storytelling to analyzing marketing performance and music trends, these projects reflect my passion for uncovering insights that inform real-world decisions.  
+  
+
+---
+
+## 🚉 Environmental Efficiency Analysis of U.S. Public Transit Systems — *STA9750 Project 1*  
+**Tools:** R, Tidyverse, dplyr, ggplot2, Quarto  
+
+- Merged datasets from the **National Transit Database** and the **Energy Information Administration** to analyze environmental performance of U.S. transit agencies.  
+- Computed summary statistics to evaluate energy use, emissions, and operational efficiency per passenger mile.  
+- Highlighted agencies leading in electrification and multi-modal operations, while identifying opportunities for improvement.  
+- Created a **press-release-style report** announcing GTA IV Award winners and summarizing key sustainability insights.  
+- Published interactive dashboard here → [View Project](https://devarshi2011.github.io/STA9750-2025-SPRING/mp02.html){target="_blank"}
+
+
+---
+
+## 🎧 Spotify Music Analytics and Playlist Optimization — *STA9750 Project 2*  
+**Tools:** R, Tidyverse, ggplot2, Quarto  
+
+- Loaded and cleaned Spotify’s raw datasets to prepare song-level and playlist-level information for analysis.  
+- Combined multiple data sources to examine trends among top artists, genres, and song characteristics such as tempo, energy, and acousticness.  
+- Performed descriptive analysis to identify what musical traits define today’s most popular tracks.  
+- Built visualizations highlighting feature distributions and correlations that shape modern hit music.  
+- Used inferential modeling to predict the attributes of “The Ultimate Playlist,” inspired by Barney Stinson’s legendary *All Rise* playlist.  
+- Published interactive dashboard here → [View Project](https://devarshi2011.github.io/STA9750-2025-SPRING/mp03.html){target="_blank"}
+
+
+---
+
+## 🗳️ Partisan Data Storytelling: 2024 U.S. Election Analysis — *STA9750 Project 3*  
+**Tools:** R, Tidyverse, ggplot2, dplyr, Quarto  
+
+- Analyzed 2024 U.S. Presidential Election data to test claims of a major national political shift highlighted by viral media maps.  
+- Ingested, cleaned, and combined county-level datasets to produce descriptive and inferential statistics exploring voting patterns.  
+- Visualized regional and partisan trends through custom ggplot2 figures that revealed contrasting narratives between counties and voters.  
+- Framed the results as a partisan “talking head,” demonstrating how data can support divergent political interpretations.  
+- Published interactive dashboard here → [View Project](https://devarshi2011.github.io/STA9750-2025-SPRING/mp04.html){target="_blank"}
+
+
+---
+
+## 🚇 Remote Work Impact on NYC Subway Ridership — *STA9750 Final Project*  
+**Tools:** R, Tidyverse, ggplot2, dplyr, Quarto  
+
+- Analyzed NYC subway ridership data (2019–2023) to assess how commuting patterns changed across the **Pre-COVID**, **Core COVID**, and **Work-From-Home** eras.  
+- Combined **MTA Monthly Ridership Data** with **U.S. Census commuting statistics** to explore correlations between remote work prevalence and transit recovery across ZIP codes.  
+- Aggregated and cleaned data to reveal neighborhood-level differences in ridership decline and rebound.  
+- Produced data-driven insights to inform urban mobility, transit planning, and post-pandemic policy decisions.  
+- Published interactive dashboard here → [View Project](https://devarshi2011.github.io/STA9750-2025-SPRING/final-Project.html){target="_blank"}
+
+
+---
+
+## 🏠 Programming for Analytics — *Python, Pandas, SQLite, Seaborn*  
+- Queried and structured 48 000 + NYC Airbnb records using SQL and Pandas for trend analysis.  
+- Built an SQLite database and ETL workflow to simulate scalable data pulls.  
+- Designed 10 + Seaborn/Matplotlib dashboards, presenting borough-level rental trends to peers and faculty.  
+
+---
+
+## 📊 Marketing Analytics — *Excel, Tableau*  
+- Designed and executed a marketing analytics study using Excel and Tableau to answer a key business question with supporting data insights.
+- Cleaned and analyzed 500+ marketing campaign records to answer key business questions.
+- Created 5+ pivot tables and 10+ visualizations including scatter plots, histograms, and line charts to extract actionable insights.
+- Developed data-driven conclusions that identified top trends and improved potential marketing decision-making by 20%.
+
+
+---
+
+## 🗄️ Relational Database Design and Implementation — *MS Access, MySQL*  
+- Developed and normalized a course registration database with Entity-Relationship modeling.  
+- Executed DDL and DML queries to manage multi-table relationships efficiently.  
+- Created a normalized E-R model improving database performance and consistency.  
+
+---
+
+
